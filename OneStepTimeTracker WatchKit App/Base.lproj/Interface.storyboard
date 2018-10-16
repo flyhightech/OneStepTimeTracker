@@ -14,6 +14,9 @@
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="OneStepTimeTracker_WatchKit_App" customModuleProvider="target">
                     <items>
                         <button width="1" alignment="center" verticalAlignment="bottom" title="Clock-In" id="Hqi-YP-wH3"/>
+                        <separator alignment="center" verticalAlignment="bottom" id="p5b-OA-NBy">
+                            <color key="color" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </separator>
                     </items>
                 </controller>
             </objects>
