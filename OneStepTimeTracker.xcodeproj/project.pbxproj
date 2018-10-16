@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A17C04012176A546003D2729 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17C04002176A546003D2729 /* AppDelegate.swift */; };
+		A17C04032176A546003D2729 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17C04022176A546003D2729 /* ViewController.swift */; };
+		A17C04062176A546003D2729 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A17C04042176A546003D2729 /* Main.storyboard */; };
+		A17C04082176A549003D2729 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A17C04072176A549003D2729 /* Assets.xcassets */; };
+		A17C040B2176A549003D2729 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A17C04092176A549003D2729 /* LaunchScreen.storyboard */; };
+		A17C04102176A549003D2729 /* OneStepTimeTracker WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A17C040F2176A549003D2729 /* OneStepTimeTracker WatchKit App.app */; };
+		A17C04162176A549003D2729 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A17C04142176A549003D2729 /* Interface.storyboard */; };
+		A17C04182176A54A003D2729 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A17C04172176A54A003D2729 /* Assets.xcassets */; };
+		A17C041F2176A54A003D2729 /* OneStepTimeTracker WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A17C041E2176A54A003D2729 /* OneStepTimeTracker WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A17C04242176A54A003D2729 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17C04232176A54A003D2729 /* InterfaceController.swift */; };
+		A17C04262176A54A003D2729 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17C04252176A54A003D2729 /* ExtensionDelegate.swift */; };
+		A17C04282176A54A003D2729 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17C04272176A54A003D2729 /* NotificationController.swift */; };
+		A17C042A2176A54A003D2729 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17C04292176A54A003D2729 /* ComplicationController.swift */; };
+		A17C042C2176A54B003D2729 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A17C042B2176A54B003D2729 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A17C04112176A549003D2729 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A17C03F52176A546003D2729 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A17C040E2176A549003D2729;
+			remoteInfo = "OneStepTimeTracker WatchKit App";
+		};
+		A17C04202176A54A003D2729 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A17C03F52176A546003D2729 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A17C041D2176A54A003D2729;
+			remoteInfo = "OneStepTimeTracker WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A17C04342176A54B003D2729 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A17C041F2176A54A003D2729 /* OneStepTimeTracker WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17C04382176A54B003D2729 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A17C04102176A549003D2729 /* OneStepTimeTracker WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A17C03FD2176A546003D2729 /* OneStepTimeTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneStepTimeTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17C04002176A546003D2729 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A17C04022176A546003D2729 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A17C04052176A546003D2729 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A17C04072176A549003D2729 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A17C040A2176A549003D2729 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A17C040C2176A549003D2729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A17C040F2176A549003D2729 /* OneStepTimeTracker WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OneStepTimeTracker WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17C04152176A549003D2729 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		A17C04172176A54A003D2729 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A17C04192176A54A003D2729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A17C041E2176A54A003D2729 /* OneStepTimeTracker WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "OneStepTimeTracker WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17C04232176A54A003D2729 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		A17C04252176A54A003D2729 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		A17C04272176A54A003D2729 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		A17C04292176A54A003D2729 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		A17C042B2176A54B003D2729 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A17C042D2176A54B003D2729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A17C042E2176A54B003D2729 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A17C03FA2176A546003D2729 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17C041B2176A54A003D2729 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A17C03F42176A545003D2729 = {
+			isa = PBXGroup;
+			children = (
+				A17C03FF2176A546003D2729 /* OneStepTimeTracker */,
+				A17C04132176A549003D2729 /* OneStepTimeTracker WatchKit App */,
+				A17C04222176A54A003D2729 /* OneStepTimeTracker WatchKit Extension */,
+				A17C03FE2176A546003D2729 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A17C03FE2176A546003D2729 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A17C03FD2176A546003D2729 /* OneStepTimeTracker.app */,
+				A17C040F2176A549003D2729 /* OneStepTimeTracker WatchKit App.app */,
+				A17C041E2176A54A003D2729 /* OneStepTimeTracker WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A17C03FF2176A546003D2729 /* OneStepTimeTracker */ = {
+			isa = PBXGroup;
+			children = (
+				A17C04002176A546003D2729 /* AppDelegate.swift */,
+				A17C04022176A546003D2729 /* ViewController.swift */,
+				A17C04042176A546003D2729 /* Main.storyboard */,
+				A17C04072176A549003D2729 /* Assets.xcassets */,
+				A17C04092176A549003D2729 /* LaunchScreen.storyboard */,
+				A17C040C2176A549003D2729 /* Info.plist */,
+			);
+			path = OneStepTimeTracker;
+			sourceTree = "<group>";
+		};
+		A17C04132176A549003D2729 /* OneStepTimeTracker WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				A17C04142176A549003D2729 /* Interface.storyboard */,
+				A17C04172176A54A003D2729 /* Assets.xcassets */,
+				A17C04192176A54A003D2729 /* Info.plist */,
+			);
+			path = "OneStepTimeTracker WatchKit App";
+			sourceTree = "<group>";
+		};
+		A17C04222176A54A003D2729 /* OneStepTimeTracker WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A17C04232176A54A003D2729 /* InterfaceController.swift */,
+				A17C04252176A54A003D2729 /* ExtensionDelegate.swift */,
+				A17C04272176A54A003D2729 /* NotificationController.swift */,
+				A17C04292176A54A003D2729 /* ComplicationController.swift */,
+				A17C042B2176A54B003D2729 /* Assets.xcassets */,
+				A17C042D2176A54B003D2729 /* Info.plist */,
+				A17C042E2176A54B003D2729 /* PushNotificationPayload.apns */,
+			);
+			path = "OneStepTimeTracker WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A17C03FC2176A546003D2729 /* OneStepTimeTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A17C04392176A54B003D2729 /* Build configuration list for PBXNativeTarget "OneStepTimeTracker" */;
+			buildPhases = (
+				A17C03F92176A546003D2729 /* Sources */,
+				A17C03FA2176A546003D2729 /* Frameworks */,
+				A17C03FB2176A546003D2729 /* Resources */,
+				A17C04382176A54B003D2729 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A17C04122176A549003D2729 /* PBXTargetDependency */,
+			);
+			name = OneStepTimeTracker;
+			productName = OneStepTimeTracker;
+			productReference = A17C03FD2176A546003D2729 /* OneStepTimeTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A17C040E2176A549003D2729 /* OneStepTimeTracker WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A17C04352176A54B003D2729 /* Build configuration list for PBXNativeTarget "OneStepTimeTracker WatchKit App" */;
+			buildPhases = (
+				A17C040D2176A549003D2729 /* Resources */,
+				A17C04342176A54B003D2729 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A17C04212176A54A003D2729 /* PBXTargetDependency */,
+			);
+			name = "OneStepTimeTracker WatchKit App";
+			productName = "OneStepTimeTracker WatchKit App";
+			productReference = A17C040F2176A549003D2729 /* OneStepTimeTracker WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		A17C041D2176A54A003D2729 /* OneStepTimeTracker WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A17C04312176A54B003D2729 /* Build configuration list for PBXNativeTarget "OneStepTimeTracker WatchKit Extension" */;
+			buildPhases = (
+				A17C041A2176A54A003D2729 /* Sources */,
+				A17C041B2176A54A003D2729 /* Frameworks */,
+				A17C041C2176A54A003D2729 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OneStepTimeTracker WatchKit Extension";
+			productName = "OneStepTimeTracker WatchKit Extension";
+			productReference = A17C041E2176A54A003D2729 /* OneStepTimeTracker WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A17C03F52176A546003D2729 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Flyhightech.LLC;
+				TargetAttributes = {
+					A17C03FC2176A546003D2729 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					A17C040E2176A549003D2729 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					A17C041D2176A54A003D2729 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = A17C03F82176A546003D2729 /* Build configuration list for PBXProject "OneStepTimeTracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A17C03F42176A545003D2729;
+			productRefGroup = A17C03FE2176A546003D2729 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A17C03FC2176A546003D2729 /* OneStepTimeTracker */,
+				A17C040E2176A549003D2729 /* OneStepTimeTracker WatchKit App */,
+				A17C041D2176A54A003D2729 /* OneStepTimeTracker WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A17C03FB2176A546003D2729 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17C040B2176A549003D2729 /* LaunchScreen.storyboard in Resources */,
+				A17C04082176A549003D2729 /* Assets.xcassets in Resources */,
+				A17C04062176A546003D2729 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17C040D2176A549003D2729 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17C04182176A54A003D2729 /* Assets.xcassets in Resources */,
+				A17C04162176A549003D2729 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17C041C2176A54A003D2729 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17C042C2176A54B003D2729 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A17C03F92176A546003D2729 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17C04032176A546003D2729 /* ViewController.swift in Sources */,
+				A17C04012176A546003D2729 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17C041A2176A54A003D2729 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17C04282176A54A003D2729 /* NotificationController.swift in Sources */,
+				A17C042A2176A54A003D2729 /* ComplicationController.swift in Sources */,
+				A17C04262176A54A003D2729 /* ExtensionDelegate.swift in Sources */,
+				A17C04242176A54A003D2729 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A17C04122176A549003D2729 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A17C040E2176A549003D2729 /* OneStepTimeTracker WatchKit App */;
+			targetProxy = A17C04112176A549003D2729 /* PBXContainerItemProxy */;
+		};
+		A17C04212176A54A003D2729 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A17C041D2176A54A003D2729 /* OneStepTimeTracker WatchKit Extension */;
+			targetProxy = A17C04202176A54A003D2729 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A17C04042176A546003D2729 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A17C04052176A546003D2729 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A17C04092176A549003D2729 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A17C040A2176A549003D2729 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A17C04142176A549003D2729 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A17C04152176A549003D2729 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A17C042F2176A54B003D2729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A17C04302176A54B003D2729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A17C04322176A54B003D2729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44XL6DX4WB;
+				INFOPLIST_FILE = "OneStepTimeTracker WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.flyhightech.OneStepTimeTracker.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		A17C04332176A54B003D2729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44XL6DX4WB;
+				INFOPLIST_FILE = "OneStepTimeTracker WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.flyhightech.OneStepTimeTracker.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		A17C04362176A54B003D2729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44XL6DX4WB;
+				IBSC_MODULE = OneStepTimeTracker_WatchKit_Extension;
+				INFOPLIST_FILE = "OneStepTimeTracker WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = net.flyhightech.OneStepTimeTracker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		A17C04372176A54B003D2729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44XL6DX4WB;
+				IBSC_MODULE = OneStepTimeTracker_WatchKit_Extension;
+				INFOPLIST_FILE = "OneStepTimeTracker WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = net.flyhightech.OneStepTimeTracker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		A17C043A2176A54B003D2729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44XL6DX4WB;
+				INFOPLIST_FILE = OneStepTimeTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.flyhightech.OneStepTimeTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A17C043B2176A54B003D2729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44XL6DX4WB;
+				INFOPLIST_FILE = OneStepTimeTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.flyhightech.OneStepTimeTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A17C03F82176A546003D2729 /* Build configuration list for PBXProject "OneStepTimeTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17C042F2176A54B003D2729 /* Debug */,
+				A17C04302176A54B003D2729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A17C04312176A54B003D2729 /* Build configuration list for PBXNativeTarget "OneStepTimeTracker WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17C04322176A54B003D2729 /* Debug */,
+				A17C04332176A54B003D2729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A17C04352176A54B003D2729 /* Build configuration list for PBXNativeTarget "OneStepTimeTracker WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17C04362176A54B003D2729 /* Debug */,
+				A17C04372176A54B003D2729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A17C04392176A54B003D2729 /* Build configuration list for PBXNativeTarget "OneStepTimeTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17C043A2176A54B003D2729 /* Debug */,
+				A17C043B2176A54B003D2729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A17C03F52176A546003D2729 /* Project object */;
+}
