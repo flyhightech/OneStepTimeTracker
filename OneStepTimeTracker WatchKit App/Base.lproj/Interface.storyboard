@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14313.18" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
-    <device id="watch38" orientation="portrait">
+    <device id="watch44" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -14,6 +14,14 @@
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="OneStepTimeTracker_WatchKit_App" customModuleProvider="target">
                     <items>
                         <button width="1" alignment="center" verticalAlignment="bottom" title="Clock-In" id="Hqi-YP-wH3"/>
+                        <label alignment="left" text="Total: 12h 32m" id="bsL-Yn-4Gs">
+                            <fontDescription key="font" type="boldSystem" pointSize="16"/>
+                        </label>
+                        <label alignment="center" verticalAlignment="center" textAlignment="center" numberOfLines="2" id="bki-MZ-3d7">
+                            <string key="text">Today
+3h 23m</string>
+                            <fontDescription key="font" type="boldSystem" pointSize="34"/>
+                        </label>
                         <separator alignment="center" verticalAlignment="bottom" id="p5b-OA-NBy">
                             <color key="color" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                         </separator>
