@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14313.18" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
-    <device id="watch44" orientation="portrait">
+    <device id="watch40" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -8,6 +8,20 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14238.10"/>
     </dependencies>
     <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="TwZ-vz-KxV">
+            <objects>
+                <controller id="qcH-Fc-NWB">
+                    <items>
+                        <label alignment="left" text="Label" id="VmE-M2-Meo"/>
+                        <label alignment="left" text="Label" id="O1c-hF-7aS"/>
+                        <label alignment="left" text="Label" id="GGa-Pu-HL7"/>
+                        <label alignment="left" text="Label" id="Wwb-f2-9Il"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="175" y="50"/>
+        </scene>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
@@ -26,6 +40,12 @@
                             <color key="color" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                         </separator>
                     </items>
+                    <menu key="menu" id="WwQ-Dd-1Jq">
+                        <items>
+                            <menuItem title="Menu Item" icon="info" id="gBG-oN-D7O" userLabel="History"/>
+                            <menuItem title="Menu Item" icon="trash" id="s5D-Gi-RAn" userLabel="Remove All"/>
+                        </items>
+                    </menu>
                 </controller>
             </objects>
             <point key="canvasLocation" x="175" y="333"/>
