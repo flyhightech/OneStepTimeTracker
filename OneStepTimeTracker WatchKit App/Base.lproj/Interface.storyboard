@@ -13,10 +13,14 @@
             <objects>
                 <controller id="qcH-Fc-NWB">
                     <items>
-                        <label alignment="left" text="Label" id="VmE-M2-Meo"/>
-                        <label alignment="left" text="Label" id="O1c-hF-7aS"/>
-                        <label alignment="left" text="Label" id="GGa-Pu-HL7"/>
-                        <label alignment="left" text="Label" id="Wwb-f2-9Il"/>
+                        <label alignment="left" text="Clock-In" id="VmE-M2-Meo"/>
+                        <label alignment="center" text="Oct, 4th 5:09pm" textAlignment="left" minimumScaleFactor="0.90000000000000002" id="O1c-hF-7aS">
+                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                        </label>
+                        <label alignment="left" text="Clock-Out" id="GGa-Pu-HL7"/>
+                        <label alignment="center" text="Oct, 4th 6:30pm" textAlignment="left" minimumScaleFactor="0.90000000000000002" id="Wwb-f2-9Il">
+                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                        </label>
                     </items>
                 </controller>
             </objects>
